@@ -48,6 +48,11 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
         }
 
+        private void Awake()
+        {
+            OnTransformChildrenChanged();
+        }
+
         private void OnTransformChildrenChanged()
         {
             foreach (var child in Children)

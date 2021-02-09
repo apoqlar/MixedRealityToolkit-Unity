@@ -17,7 +17,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
     [HelpURL("https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Rendering/ClippingPrimitive.html")]
     public abstract class ClippingPrimitive : MonoBehaviour, IMaterialInstanceOwner
     {
-        private const int InitialCollectionSize = 256;
+        private const int InitialCollectionSize = 128;
 
         /// <summary>
         /// The renderer(s) that should be affected by the primitive. This collection is a copy of internal HashSet.
